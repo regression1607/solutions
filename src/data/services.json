@@ -1,0 +1,70 @@
+[
+  {
+    "id": "web-development",
+    "title": "Web Development",
+    "description": "Custom websites and web applications built with cutting-edge technologies for optimal performance and user experience.",
+    "icon": "Code",
+    "features": [
+      "Responsive Design",
+      "SEO Optimization", 
+      "Performance Optimization",
+      "Modern Frameworks",
+      "Progressive Web Apps",
+      "E-commerce Solutions"
+    ],
+    "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js"],
+    "price": "Starting from $2,999",
+    "image": "/images/services/web-development.jpg"
+  },
+  {
+    "id": "app-development", 
+    "title": "App Development",
+    "description": "Cross-platform mobile and desktop applications that deliver native performance and exceptional user experiences.",
+    "icon": "Smartphone",
+    "features": [
+      "Cross-Platform Development",
+      "Native Performance",
+      "App Store Deployment", 
+      "Maintenance & Updates",
+      "Push Notifications",
+      "Offline Functionality"
+    ],
+    "technologies": ["React Native", "Flutter", "Swift", "Kotlin", "Expo"],
+    "price": "Starting from $4,999",
+    "image": "/images/services/app-development.jpg"
+  },
+  {
+    "id": "ai-integration",
+    "title": "AI Integration", 
+    "description": "Intelligent automation and AI-powered solutions to transform your business processes and enhance user interactions.",
+    "icon": "Brain",
+    "features": [
+      "Chatbot Development",
+      "Machine Learning Models",
+      "Process Automation",
+      "Data Analytics",
+      "Natural Language Processing",
+      "Computer Vision"
+    ],
+    "technologies": ["OpenAI", "TensorFlow", "Python", "Langchain", "Hugging Face"],
+    "price": "Starting from $3,999", 
+    "image": "/images/services/ai-integration.jpg"
+  },
+  {
+    "id": "digital-consulting",
+    "title": "Digital Consulting",
+    "description": "Strategic technology consulting to help businesses navigate digital transformation and optimize their tech stack.",
+    "icon": "Lightbulb",
+    "features": [
+      "Technology Strategy",
+      "Architecture Design",
+      "Performance Audits",
+      "Security Assessment",
+      "Team Training",
+      "Project Management"
+    ],
+    "technologies": ["AWS", "Docker", "Kubernetes", "CI/CD", "Monitoring"],
+    "price": "Starting from $1,999",
+    "image": "/images/services/digital-consulting.jpg"
+  }
+]

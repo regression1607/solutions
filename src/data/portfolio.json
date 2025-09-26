@@ -1,0 +1,64 @@
+[
+  {
+    "id": "ecommerce-platform",
+    "title": "E-Commerce Platform",
+    "description": "A modern e-commerce platform with advanced features including AI-powered recommendations, real-time inventory management, and seamless payment integration.",
+    "image": "/images/portfolio/ecommerce-platform.jpg",
+    "technologies": ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Redis"],
+    "category": "Web Development",
+    "url": "https://demo-ecommerce.ekrtech.solutions",
+    "github": "https://github.com/ekrtech/ecommerce-platform",
+    "featured": true
+  },
+  {
+    "id": "fitness-mobile-app",
+    "title": "Fitness Tracking App",
+    "description": "Cross-platform mobile application for fitness tracking with AI-powered workout recommendations and social features.",
+    "image": "/images/portfolio/fitness-app.jpg", 
+    "technologies": ["React Native", "Firebase", "TensorFlow", "Node.js"],
+    "category": "App Development",
+    "url": "https://apps.apple.com/app/fitness-tracker",
+    "featured": true
+  },
+  {
+    "id": "ai-chatbot-saas",
+    "title": "AI Customer Support Bot",
+    "description": "Intelligent customer support chatbot with natural language processing and integration capabilities for multiple platforms.",
+    "image": "/images/portfolio/ai-chatbot.jpg",
+    "technologies": ["OpenAI", "Langchain", "Python", "FastAPI", "React"],
+    "category": "AI Integration", 
+    "url": "https://chatbot-demo.ekrtech.solutions",
+    "github": "https://github.com/ekrtech/ai-chatbot",
+    "featured": true
+  },
+  {
+    "id": "portfolio-website",
+    "title": "Creative Portfolio Website",
+    "description": "A stunning portfolio website for a creative agency with 3D animations and interactive elements.",
+    "image": "/images/portfolio/portfolio-website.jpg",
+    "technologies": ["Next.js", "Three.js", "Framer Motion", "Tailwind CSS"],
+    "category": "Web Development",
+    "url": "https://creative-agency.ekrtech.solutions",
+    "featured": false
+  },
+  {
+    "id": "restaurant-management",
+    "title": "Restaurant Management System", 
+    "description": "Complete restaurant management solution with POS system, inventory tracking, and customer management.",
+    "image": "/images/portfolio/restaurant-system.jpg",
+    "technologies": ["React", "Node.js", "MongoDB", "Socket.io", "Stripe"],
+    "category": "Web Development",
+    "url": "https://restaurant-demo.ekrtech.solutions",
+    "featured": false
+  },
+  {
+    "id": "learning-platform",
+    "title": "Online Learning Platform",
+    "description": "Interactive online learning platform with video streaming, progress tracking, and AI-powered content recommendations.",
+    "image": "/images/portfolio/learning-platform.jpg",
+    "technologies": ["Next.js", "Prisma", "PostgreSQL", "AWS S3", "OpenAI"],
+    "category": "Web Development", 
+    "url": "https://learning-demo.ekrtech.solutions",
+    "featured": false
+  }
+]

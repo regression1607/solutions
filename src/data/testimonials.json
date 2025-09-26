@@ -1,0 +1,56 @@
+[
+  {
+    "id": "sarah-johnson",
+    "name": "Sarah Johnson",
+    "role": "CEO",
+    "company": "TechStart Inc.",
+    "content": "EKR Tech Solutions transformed our business with their innovative web platform. The team's expertise in modern technologies and attention to detail exceeded our expectations. Our conversion rate increased by 300% after launch!",
+    "avatar": "/images/testimonials/sarah-johnson.jpg",
+    "rating": 5
+  },
+  {
+    "id": "michael-chen",
+    "name": "Michael Chen", 
+    "role": "Product Manager",
+    "company": "InnovateCorp",
+    "content": "The mobile app developed by EKR Tech Solutions has been a game-changer for our business. The AI integration features are incredibly sophisticated, and the user experience is seamless. Highly recommended!",
+    "avatar": "/images/testimonials/michael-chen.jpg",
+    "rating": 5
+  },
+  {
+    "id": "emily-davis",
+    "name": "Emily Davis",
+    "role": "Marketing Director", 
+    "company": "GrowthLab",
+    "content": "Working with EKR Tech Solutions was an absolute pleasure. They delivered our e-commerce platform ahead of schedule with features we didn't even know we needed. The 3D animations and user interface are stunning!",
+    "avatar": "/images/testimonials/emily-davis.jpg",
+    "rating": 5
+  },
+  {
+    "id": "david-wilson",
+    "name": "David Wilson",
+    "role": "Founder",
+    "company": "FitnessPro",
+    "content": "The fitness tracking app created by EKR Tech Solutions has revolutionized how our users engage with fitness. The AI-powered recommendations and social features have significantly increased user retention.",
+    "avatar": "/images/testimonials/david-wilson.jpg", 
+    "rating": 5
+  },
+  {
+    "id": "lisa-martinez",
+    "name": "Lisa Martinez",
+    "role": "CTO",
+    "company": "DataFlow Systems",
+    "content": "EKR Tech Solutions implemented an AI chatbot solution that has reduced our customer support workload by 70%. The natural language processing capabilities are impressive, and the integration was seamless.",
+    "avatar": "/images/testimonials/lisa-martinez.jpg",
+    "rating": 5
+  },
+  {
+    "id": "james-brown",
+    "name": "James Brown",
+    "role": "Operations Manager",
+    "company": "RestaurantChain Plus",
+    "content": "The restaurant management system developed by EKR Tech Solutions has streamlined our operations across all locations. The real-time inventory tracking and POS integration have improved our efficiency tremendously.",
+    "avatar": "/images/testimonials/james-brown.jpg",
+    "rating": 5
+  }
+]
