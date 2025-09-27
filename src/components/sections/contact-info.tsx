@@ -11,8 +11,8 @@ const contactMethods = [
     icon: Mail,
     title: "Email Us",
     description: "Send us an email anytime",
-    value: "contact@ekrtech.solutions",
-    action: "mailto:contact@ekrtech.solutions",
+    value: "contact@Novatratech.solutions",
+    action: "mailto:contact@Novatratech.solutions",
     color: "text-blue-500"
   },
   {

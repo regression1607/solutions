@@ -27,7 +27,7 @@ export const sendEmail = async (formData: {
       subject: formData.subject,
       message: formData.message,
       service: formData.service || 'General Inquiry',
-      to_name: 'EKR Tech Solutions',
+      to_name: 'Novatra Tech Solutions',
     }
 
     const response = await emailjs.send(

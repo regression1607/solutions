@@ -14,6 +14,9 @@ export interface Logo3DProps {
   followMouse?: boolean
   slowDrift?: boolean
   autoRotate?: boolean
+  showControls?: boolean
+  intensity?: number
+  className?: string
   scale?: number
 }
 

@@ -6,7 +6,7 @@ import { ArrowRight, Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import dynamic from "next/dynamic"
 
-import { EKRCharacterLogo } from "@/components/animations/EKRCharacterLogo"
+import { NovatraCharacterLogo } from "@/components/animations/NovatraCharacterLogo"
 
 // Dynamically import 3D components to avoid SSR issues
 const ParticleSystem = dynamic(() => import("@/components/animations/3d/ParticleSystem").then(mod => ({ default: mod.ParticleSystem })), {
@@ -128,7 +128,7 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="relative"
             >
-              <EKRCharacterLogo
+              <NovatraCharacterLogo
                 width={400}
                 height={400}
               />

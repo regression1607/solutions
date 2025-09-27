@@ -31,7 +31,7 @@ export function AboutHero() {
             >
               About{" "}
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                EKR Tech Solutions
+                Novatra Solutions
               </span>
             </motion.h1>
 
@@ -53,7 +53,7 @@ export function AboutHero() {
             >
               <p>
                 Founded with a vision to bridge the gap between innovative technology and business success, 
-                EKR Tech Solutions has grown into a trusted partner for companies looking to thrive in the digital age. 
+                Novatra Solutions has grown into a trusted partner for companies looking to thrive in the digital age. 
                 Our expertise spans web development, mobile applications, AI integration, and digital consulting.
               </p>
             </motion.div>

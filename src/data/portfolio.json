@@ -6,8 +6,8 @@
     "image": "/images/portfolio/ecommerce-platform.jpg",
     "technologies": ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Redis"],
     "category": "Web Development",
-    "url": "https://demo-ecommerce.ekrtech.solutions",
-    "github": "https://github.com/ekrtech/ecommerce-platform",
+    "url": "https://demo-ecommerce.Novatratech.solutions",
+    "github": "https://github.com/Novatratech/ecommerce-platform",
     "featured": true
   },
   {
@@ -27,8 +27,8 @@
     "image": "/images/portfolio/ai-chatbot.jpg",
     "technologies": ["OpenAI", "Langchain", "Python", "FastAPI", "React"],
     "category": "AI Integration", 
-    "url": "https://chatbot-demo.ekrtech.solutions",
-    "github": "https://github.com/ekrtech/ai-chatbot",
+    "url": "https://chatbot-demo.Novatratech.solutions",
+    "github": "https://github.com/Novatratech/ai-chatbot",
     "featured": true
   },
   {
@@ -38,7 +38,7 @@
     "image": "/images/portfolio/portfolio-website.jpg",
     "technologies": ["Next.js", "Three.js", "Framer Motion", "Tailwind CSS"],
     "category": "Web Development",
-    "url": "https://creative-agency.ekrtech.solutions",
+    "url": "https://creative-agency.Novatratech.solutions",
     "featured": false
   },
   {
@@ -48,7 +48,7 @@
     "image": "/images/portfolio/restaurant-system.jpg",
     "technologies": ["React", "Node.js", "MongoDB", "Socket.io", "Stripe"],
     "category": "Web Development",
-    "url": "https://restaurant-demo.ekrtech.solutions",
+    "url": "https://restaurant-demo.Novatratech.solutions",
     "featured": false
   },
   {
@@ -58,7 +58,7 @@
     "image": "/images/portfolio/learning-platform.jpg",
     "technologies": ["Next.js", "Prisma", "PostgreSQL", "AWS S3", "OpenAI"],
     "category": "Web Development", 
-    "url": "https://learning-demo.ekrtech.solutions",
+    "url": "https://learning-demo.Novatratech.solutions",
     "featured": false
   }
 ]

@@ -48,7 +48,7 @@ export function AboutSection() {
             >
               Why Choose{" "}
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                EKR Tech Solutions
+                Novatra Tech Solutions
               </span>
             </motion.h2>
             

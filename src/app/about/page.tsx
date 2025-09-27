@@ -6,7 +6,7 @@ import { CTASection } from "@/components/sections/cta-section"
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about EKR Tech Solutions - our mission, values, and the passionate team behind innovative technology solutions.",
+  description: "Learn about Novatra Solutions - our mission, values, and the passionate team behind innovative technology solutions.",
 }
 
 export default function AboutPage() {

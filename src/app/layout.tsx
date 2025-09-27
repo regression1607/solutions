@@ -25,11 +25,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "EKR Tech Solutions",
+      name: "Novatra Solutions",
       url: SITE_CONFIG.url,
     },
   ],
-  creator: "EKR Tech Solutions",
+  creator: "Novatra Solutions",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: SITE_CONFIG.name,
     description: SITE_CONFIG.description,
     images: [SITE_CONFIG.ogImage],
-    creator: "@ekrtech",
+    creator: "@novatra",
   },
   icons: {
     icon: "/favicon.ico",

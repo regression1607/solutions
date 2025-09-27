@@ -1,10 +1,10 @@
-# EKR Tech Solutions Website
+# Novatra Solutions Website
 
-A modern, interactive website for EKR Tech Solutions featuring MetaMask-inspired 3D animations, particle systems, and comprehensive technology services showcase.
+A modern, interactive website for Novatra Solutions featuring MetaMask-inspired 3D animations, particle systems, and comprehensive technology services showcase.
 
 ## 🌟 Features
 
-- **3D Character Logo**: Interactive EKR character with MetaMask-style animations
+- **3D Character Logo**: Interactive Novatra character with MetaMask-style animations
 - **Particle Systems**: Dynamic WebGL-powered background effects
 - **Modern Design**: Beautiful gradients, smooth animations, and responsive layout
 - **Complete Pages**: Home, Services, Portfolio, About, and Contact pages
@@ -28,7 +28,7 @@ A modern, interactive website for EKR Tech Solutions featuring MetaMask-inspired
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd ekr-tech-solutions
+cd Novatra-tech-solutions
 ```
 
 2. Install dependencies:
@@ -85,7 +85,7 @@ src/
 
 ## 🎨 Key Components
 
-- **EKRCharacterLogo**: Interactive 3D character with expressions
+- **NovatraCharacterLogo**: Interactive 3D character with expressions
 - **ParticleSystem**: WebGL particle background effects
 - **ContactForm**: Full-featured contact form with validation
 - **ServicesSection**: Animated service showcase
@@ -137,7 +137,7 @@ This project is licensed under the MIT License.
 
 ## 📞 Support
 
-For support or questions, contact us at contact@ekrtech.solutions
+For support or questions, contact us at contact@novatra.solutions
 
 ## Learn More
 

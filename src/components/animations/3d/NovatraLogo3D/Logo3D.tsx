@@ -3,7 +3,7 @@
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, PerspectiveCamera, Environment } from '@react-three/drei'
-import { EKRLogoMesh } from './EKRLogoMesh'
+import { NovatraLogoMesh } from './NovatraLogoMesh'
 import type { Logo3DProps } from '@/types/animations'
 
 export function Logo3D({
@@ -12,19 +12,25 @@ export function Logo3D({
   followMouse = true,
   slowDrift = false,
   autoRotate = true,
-  scale = 1
+  showControls = false,
+  intensity = 1,
+  className = ""
 }: Logo3DProps) {
   return (
     <div 
-      className="relative"
+      className={`relative ${className}`}
       style={{ width, height }}
     >
       <Canvas
-        className="cursor-pointer"
+        shadows
+        dpr={[1, 2]}
         gl={{ 
-          antialias: true, 
+          antialias: true,
           alpha: true,
           powerPreference: "high-performance"
+        }}
+        style={{
+          background: 'transparent'
         }}
       >
         <PerspectiveCamera
@@ -35,7 +41,7 @@ export function Logo3D({
           far={1000}
         />
         
-        {/* Lighting */}
+        {/* Lighting setup */}
         <ambientLight intensity={0.4} />
         <directionalLight
           position={[10, 10, 5]}
@@ -44,37 +50,36 @@ export function Logo3D({
           shadow-mapSize-width={2048}
           shadow-mapSize-height={2048}
         />
-        <pointLight position={[-10, -10, -5]} intensity={0.5} color="#9333ea" />
-        <pointLight position={[10, -10, 5]} intensity={0.3} color="#3b82f6" />
+        <pointLight position={[-10, -10, -5]} intensity={0.5} />
+        <spotLight
+          position={[0, 20, 10]}
+          intensity={0.8}
+          angle={0.3}
+          penumbra={1}
+          castShadow
+        />
         
         {/* Environment for reflections */}
         <Environment preset="city" />
         
         <Suspense fallback={null}>
-          <EKRLogoMesh
+          <NovatraLogoMesh
             followMouse={followMouse}
             slowDrift={slowDrift}
             autoRotate={autoRotate}
-            scale={scale}
+            intensity={intensity}
           />
         </Suspense>
         
-        {/* Controls for interaction */}
-        <OrbitControls
-          enableZoom={false}
-          enablePan={false}
-          enableRotate={true}
-          autoRotate={slowDrift}
-          autoRotateSpeed={0.5}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-        />
+        {showControls && (
+          <OrbitControls
+            enablePan={false}
+            enableZoom={false}
+            maxPolarAngle={Math.PI / 2}
+            minPolarAngle={Math.PI / 2}
+          />
+        )}
       </Canvas>
-      
-      {/* Loading indicator */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <div className="w-8 h-8 border-2 border-primary border-t-transparent rounded-full animate-spin opacity-50" />
-      </div>
     </div>
   )
 }

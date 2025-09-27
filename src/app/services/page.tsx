@@ -6,7 +6,7 @@ import { CTASection } from "@/components/sections/cta-section"
 
 export const metadata: Metadata = {
   title: "Our Services",
-  description: "Comprehensive technology services including web development, app development, AI integration, and digital consulting solutions.",
+  description: "Comprehensive technology services from Novatra Solutions including web development, app development, AI integration, and digital consulting solutions.",
 }
 
 export default function ServicesPage() {

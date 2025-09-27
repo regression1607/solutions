@@ -1,12 +1,12 @@
 export const SITE_CONFIG = {
-  name: "EKR Tech Solutions",
+  name: "Novatra Solutions",
   description: "Cutting-edge technology services including website creation, app development, AI integration, and automated solutions.",
-  url: "https://ekrtech.solutions",
-  ogImage: "https://ekrtech.solutions/og.jpg",
+  url: "https://novatra.solutions",
+  ogImage: "https://novatra.solutions/og.jpg",
   links: {
-    twitter: "https://twitter.com/ekrtech",
-    github: "https://github.com/ekrtech",
-    linkedin: "https://linkedin.com/company/ekrtech",
+    twitter: "https://twitter.com/novatra",
+    github: "https://github.com/novatra",
+    linkedin: "https://linkedin.com/company/novatra",
   },
 }
 

@@ -43,27 +43,19 @@ export function Header() {
             >
               {/* Animated 2D logo */}
               <div className="w-full h-full bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center overflow-hidden relative">
-                <div className="flex items-center space-x-0.5">
+                <div className="flex items-center justify-center">
                   <motion.span 
-                    className="text-white font-bold text-xs"
-                    animate={{ color: ["#ffffff", "#fbbf24", "#ffffff"] }}
-                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                    className="text-white font-bold text-lg"
+                    animate={{ 
+                      color: ["#ffffff", "#fbbf24", "#10b981", "#f59e0b", "#ffffff"],
+                      scale: [1, 1.1, 1]
+                    }}
+                    transition={{ 
+                      color: { duration: 3, repeat: Infinity, ease: "easeInOut" },
+                      scale: { duration: 2, repeat: Infinity, ease: "easeInOut" }
+                    }}
                   >
-                    E
-                  </motion.span>
-                  <motion.span 
-                    className="text-white font-bold text-xs"
-                    animate={{ color: ["#ffffff", "#10b981", "#ffffff"] }}
-                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut", delay: 0.3 }}
-                  >
-                    K
-                  </motion.span>
-                  <motion.span 
-                    className="text-white font-bold text-xs"
-                    animate={{ color: ["#ffffff", "#f59e0b", "#ffffff"] }}
-                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut", delay: 0.6 }}
-                  >
-                    R
+                    N
                   </motion.span>
                 </div>
                 {/* Subtle shine effect */}

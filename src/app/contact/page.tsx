@@ -5,7 +5,7 @@ import { ContactInfo } from "@/components/sections/contact-info"
 
 export const metadata: Metadata = {
   title: "Contact Us",
-  description: "Get in touch with EKR Tech Solutions. Let's discuss your project and create something amazing together.",
+  description: "Get in touch with Novatra Solutions. Let's discuss your project and create something amazing together.",
 }
 
 export default function ContactPage() {

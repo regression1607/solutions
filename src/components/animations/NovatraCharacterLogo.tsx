@@ -3,17 +3,17 @@
 import { motion, useAnimation } from "framer-motion"
 import { useState, useEffect } from "react"
 
-interface EKRCharacterLogoProps {
+interface NovatraCharacterLogoProps {
   width?: number
   height?: number
   className?: string
 }
 
-export function EKRCharacterLogo({ 
+export function NovatraCharacterLogo({ 
   width = 400, 
   height = 400, 
   className = "" 
-}: EKRCharacterLogoProps) {
+}: NovatraCharacterLogoProps) {
   const [isHovered, setIsHovered] = useState(false)
   const [currentExpression, setCurrentExpression] = useState(0)
   const controls = useAnimation()
@@ -118,9 +118,9 @@ export function EKRCharacterLogo({
           </span>
         </motion.div>
 
-        {/* EKR Letters with character */}
+        {/* Novatra Letter "N" with character */}
         <motion.div 
-          className="flex items-center space-x-2 relative z-10"
+          className="flex items-center justify-center relative z-10"
           animate={{
             y: isHovered ? [0, -5, 0] : 0,
           }}
@@ -130,65 +130,24 @@ export function EKRCharacterLogo({
             className="flex flex-col items-center"
             animate={{
               rotateY: [0, 360],
-              color: ["#ffffff", "#fbbf24", "#ffffff"]
+              color: ["#ffffff", "#fbbf24", "#10b981", "#f59e0b", "#ffffff"],
+              scale: [1, 1.2, 1]
             }}
             transition={{
               rotateY: { duration: 4, repeat: Infinity, ease: "easeInOut" },
-              color: { duration: 2, repeat: Infinity, ease: "easeInOut" }
+              color: { duration: 3, repeat: Infinity, ease: "easeInOut" },
+              scale: { duration: 2, repeat: Infinity, ease: "easeInOut" }
             }}
           >
-            <span className="text-white font-bold text-2xl">E</span>
+            <span className="text-white font-bold text-4xl">N</span>
             <motion.div
-              className="w-1 h-1 bg-yellow-400 rounded-full mt-1"
+              className="w-2 h-2 bg-gradient-to-r from-yellow-400 to-green-400 rounded-full mt-1"
               animate={{
-                scale: [0, 1, 0],
-                opacity: [0, 1, 0]
+                scale: [0, 1.5, 0],
+                opacity: [0, 1, 0],
+                rotate: [0, 180, 360]
               }}
-              transition={{ duration: 1, repeat: Infinity, delay: 0.5 }}
-            />
-          </motion.div>
-
-          <motion.div
-            className="flex flex-col items-center"
-            animate={{
-              scale: [1, 1.3, 1],
-              color: ["#ffffff", "#10b981", "#ffffff"]
-            }}
-            transition={{
-              scale: { duration: 2.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 },
-              color: { duration: 2.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }
-            }}
-          >
-            <span className="text-white font-bold text-2xl">K</span>
-            <motion.div
-              className="w-1 h-1 bg-green-400 rounded-full mt-1"
-              animate={{
-                scale: [0, 1, 0],
-                opacity: [0, 1, 0]
-              }}
-              transition={{ duration: 1, repeat: Infinity, delay: 1 }}
-            />
-          </motion.div>
-
-          <motion.div
-            className="flex flex-col items-center"
-            animate={{
-              rotateX: [0, 360],
-              color: ["#ffffff", "#f59e0b", "#ffffff"]
-            }}
-            transition={{
-              rotateX: { duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 1 },
-              color: { duration: 2, repeat: Infinity, ease: "easeInOut", delay: 1 }
-            }}
-          >
-            <span className="text-white font-bold text-2xl">R</span>
-            <motion.div
-              className="w-1 h-1 bg-orange-400 rounded-full mt-1"
-              animate={{
-                scale: [0, 1, 0],
-                opacity: [0, 1, 0]
-              }}
-              transition={{ duration: 1, repeat: Infinity, delay: 1.5 }}
+              transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
             />
           </motion.div>
         </motion.div>
